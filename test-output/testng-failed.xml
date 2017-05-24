@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="FactoryMethods.ListenerClass"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.Tests.TestBaseOne">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.Tests.TestBaseOne -->
+      <class name="com.Tests.TestBaseTwo">
+        <methods>
+          <include name="Onboarding"/>
+        </methods>
+      </class> <!-- com.Tests.TestBaseTwo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
